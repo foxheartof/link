@@ -1,37 +1,56 @@
-# FoxHeart · Micrositio Meet & Greet
+# 🦊 FoxHeart | Micrositio de Boletos
 
-Micrositio **responsive** para GitHub Pages, con **exactamente dos enlaces de acción**:
+Micrositio web desarrollado para **FoxHeart**, diseñado para facilitar el acceso a información y a la compra de boletos mediante una interfaz sencilla, atractiva y adaptable a cualquier dispositivo.
 
-1. **Más información** → https://foxheartof.github.io/
-2. **Comprar boleto $800** → https://mpago.la/1xB6cLS
+El proyecto utiliza una estética inspirada en la identidad visual de FoxHeart y está alojado mediante **GitHub Pages**.
 
-## Publicación en GitHub Pages
+## ✨ Sobre el proyecto
 
-1. Crea un repositorio nuevo en GitHub, por ejemplo `foxheart-boletos` (no sobrescribas el repositorio original `foxheartof.github.io`).
-2. Extrae este ZIP y sube **todos los archivos de la carpeta** a la raíz del nuevo repositorio. Debe quedar `index.html` en la raíz.
-3. En **Settings → Pages**, selecciona **Deploy from a branch**, rama **main** y directorio **/(root)**. Guarda los cambios.
-4. Abre la dirección que indique GitHub Pages (por ejemplo, `https://TU-USUARIO.github.io/foxheart-boletos/`).
+El objetivo de este micrositio es ofrecer un punto de acceso rápido y directo a dos acciones principales:
 
-No es necesario instalar Node, paquetes, frameworks ni servicios adicionales. También puedes abrir `index.html` directamente en el navegador para revisar el diseño.
+- **💖 Más información:** Redirige al [sitio web de FoxHeart](https://foxheartof.github.io/), donde los visitantes pueden consultar más detalles.
+- **🎟️ Comprar boleto — $800:** Redirige a [Mercado Pago](https://mpago.la/1xB6cLS) para realizar la compra.
 
-## Estructura
+El diseño prioriza la facilidad de navegación, la accesibilidad y una experiencia de usuario optimizada para dispositivos móviles.
 
-```text
-.
-├── index.html         # Contenido y los dos enlaces
-├── styles.css         # Diseño responsive
-├── assets/
-│   └── favicon.svg    # Ícono local, sin dependencias
-├── .nojekyll           # GitHub Pages sirve los archivos tal cual
-└── README.md          # Instrucciones de publicación
-```
+## 🚀 Características
 
-## Estilo y fotografía
+- Diseño responsive y mobile-first.
+- Interfaz minimalista con únicamente dos botones principales.
+- Identidad visual inspirada en el sitio web de FoxHeart.
+- Navegación directa a información y compra de boletos.
+- Sitio estático, ligero y sin dependencias externas de JavaScript.
+- Compatible con GitHub Pages.
 
-Se reutiliza la paleta del sitio actual de FoxHeart (rosa `#ff7ca9`, dorado `#f0c541`, fondo oscuro `#120c11`). Para mantener la identidad original sin redistribuir archivos de terceros, la fotografía de fondo se carga desde `https://foxheartof.github.io/assets/hero-main.jpg`. Si el recurso no está disponible, el diseño muestra un fondo degradado local de respaldo. El resto del micrositio es completamente estático.
+## 🛠️ Tecnologías
 
-Para volverlo totalmente autónomo, copia una fotografía que tengas autorización de usar a `assets/hero-main.jpg` y sustituye la URL de la regla `.poster__visual` en `styles.css` por `url('assets/hero-main.jpg')`.
+- **HTML5** — Estructura y contenido.
+- **CSS3** — Diseño visual, animaciones y adaptación responsive.
+- **GitHub Pages** — Alojamiento y publicación.
 
-## Editar botones
+## 🌐 Despliegue
 
-En `index.html`, cambia las URL `href` de las dos etiquetas `<a>` dentro del bloque `nav.actions`. Los enlaces se abren en una pestaña nueva con `rel="noopener noreferrer"`.
+Este proyecto está diseñado para publicarse directamente en GitHub Pages.
+
+1. Clonar o descargar el repositorio.
+2. Subir los archivos a la rama `main`.
+3. Acceder a **Settings → Pages**.
+4. Seleccionar **Deploy from a branch**.
+5. Elegir la rama `main` y el directorio `/ (root)`.
+6. Guardar los cambios.
+
+El micrositio estará disponible en la URL proporcionada por GitHub Pages una vez finalizado el despliegue.
+
+## 🔒 Pagos y seguridad
+
+Este micrositio **no procesa pagos ni almacena información financiera o personal**. Las compras se realizan mediante una redirección externa a Mercado Pago.
+
+## 💖 FoxHeart
+
+Conoce más sobre FoxHeart, sus proyectos y novedades en su sitio web:
+
+**[foxheartof.github.io](https://foxheartof.github.io/)**
+
+---
+
+*Micrositio desarrollado para proporcionar una experiencia de acceso sencilla, rápida y visualmente consistente con la identidad de FoxHeart.*
